@@ -96,7 +96,9 @@ a { color: #999966; }
                 
 /*更新情報*/
 .update         {padding: 20px;
-                  border: solid 5px #dddddd}
+                  border: solid 5px #dddddd;
+                  height: 12.5em;
+                  overflow: scroll;}
 
 .update h1     {margin-top: 0;
                margin-bottom: 5px;
