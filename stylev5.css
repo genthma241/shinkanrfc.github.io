@@ -240,7 +240,7 @@ a { color: #999966; }
 .shoukai h2 i    {margin-right: 7px;
               color: #888888}                            
               
-.shoukai p       {max-width: 640px;
+.shoukai p       {width: 100%;
               margin-top: 0;
               margin-bottom: 20px;
               line-height: 1.429}                          
@@ -338,7 +338,6 @@ a { color: #999966; }
               {background-color: #eeeeee}  
                           
 /*りかまるメニュー*/
-.secondmenu     {border: solid 6px #dddddd}
 
 .secondmenu .rikatext  {
               margin: auto;
@@ -633,7 +632,7 @@ a { color: #999966; }
             width: 20%}    
             
 .box9-1     {float: left;
-            width: 60%;
+            width: 100%;
             padding-right: 50px;
             -moz-box-sizing: border-box;
             -webkit-box-sizing: border-box;
