@@ -96,7 +96,9 @@ a { color: #999966; }
                 
 /*更新情報*/
 .update         {padding: 20px;
-                  border: solid 5px #dddddd}
+                  border: solid 5px #dddddd;
+                  height: 12.5em;
+                  overflow: scroll;}
 
 .update h1     {margin-top: 0;
                margin-bottom: 5px;
@@ -238,7 +240,7 @@ a { color: #999966; }
 .shoukai h2 i    {margin-right: 7px;
               color: #888888}                            
               
-.shoukai p       {max-width: 640px;
+.shoukai p       {width: 100%;
               margin-top: 0;
               margin-bottom: 20px;
               line-height: 1.429}                          
@@ -267,6 +269,11 @@ a { color: #999966; }
               width: 33%;
               padding-bottom: 20px;}              
               
+.box11-1, .box11-2, .box11-3, .box11-4, .box11-5, .box11-6
+              {float: left;
+              width: 50%;}  
+              
+
               
 /*RFC ヘッド*/
 .imhead      {font-size: 20px;
@@ -336,7 +343,6 @@ a { color: #999966; }
               {background-color: #eeeeee}  
                           
 /*りかまるメニュー*/
-.secondmenu     {border: solid 6px #dddddd}
 
 .secondmenu .rikatext  {
               margin: auto;
@@ -373,7 +379,39 @@ a { color: #999966; }
 .secondimg    {margin-left: 5px;
               margin-top: 4px}              
 
+/*新歓ページの遊び心*/
+.box11-1, .box11-2, .box11-3, .box11-4, .box11-5, .box11-6 {
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
 
+.box11-2 {background: url(bg1.jpg) no-repeat center;
+		  background-size: cover;
+		  position: relative;
+		  height: 70vh;}
+.box11-3 {background: url(bg2.JPG) no-repeat center;
+		  background-size: cover;
+		  position: relative;
+		  height: 70vh;}		  
+.box11-6 {background: url(bg3.JPG) no-repeat center;
+		  background-size: cover;
+		  position: relative;
+		  height: 70vh;}
+
+.box11-1, .box11-4, .box11-5{
+          padding: 10px;
+          font-size: auto;}
+          
+.box11-5 {
+          padding-top: 40px;}          
+
+.box11:after {content: "";
+              display: block;
+              clear: both}
+              
+.box11-1, .box11-2, .box11-3, .box11-4, .box11-5, .box11-6{
+          float: left;
+          width: 50%}
 
 /*コピーライト*/
 .copyright p  {margin: 0;
@@ -427,14 +465,14 @@ a { color: #999966; }
              padding-bottom: 25px}  
 
 /*[お問い合わせフォーム]ボタン*/
-.btn {
+.btns {
           text-align: center;
           padding-bottom: 20px;
           margin: 30px 0;
           border-bottom: 1px dotted #CCCCCC;
           }
 
-.btn a {
+.btns a {
           font-size: 18px;
           font-weight: bold;
           text-decoration: none;
@@ -449,7 +487,7 @@ a { color: #999966; }
           display: inline-block;
           }
 
-#pageBodyMain .btn a:hover {
+#pageBodyMain .btns a:hover {
           opacity: 0.7;
           }
 
@@ -530,11 +568,12 @@ a { color: #999966; }
                {background-color: #eeeeee}
                
                                               
+
+
+.box11-1, .box11-2, .box11-3, .box11-4, .box11-5, .box11-6
+              {width: 100%;}  
+
 }
-
-
-
-
 
 /*############## 768px以上 ##################*/
 @media (min-width: 768px) {
@@ -631,7 +670,7 @@ a { color: #999966; }
             width: 20%}    
             
 .box9-1     {float: left;
-            width: 60%;
+            width: 100%;
             padding-right: 50px;
             -moz-box-sizing: border-box;
             -webkit-box-sizing: border-box;
