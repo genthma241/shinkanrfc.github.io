@@ -134,6 +134,11 @@ a { color: #999966; }
                 width: auto;
                 margin-left: 60px}                        
 
+/*Twitter timeline表示*/
+.updatet        {padding: 20px;
+                  height: 14em;
+                  overflow: scroll;}
+
 /*SNS メニュー*/
 .follow ul    {margin: 0;
               padding: 0;
